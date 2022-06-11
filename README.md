@@ -1,6 +1,6 @@
 # Transaction Flow Pulse Strategy
 
-Many arbitrage strategies can be applied in DeFi trading such as price discrepancy between liquidity pools and cross-platform pair arbitrage. However. I explored and implemented a new timing strategy based on the transaction data on the block in this week, and it performs better than my baseline(trend following)
+I implemented a  timing strategy based on the transaction data on the block
 
 Due to limited time and resources, in this case we only use **ETH/USD** as the target, the time range is from **May 27 to June 8, 2022**, and the block is **Binance 14**. If more targets, longer time periods, and more block data are used, I believe the effect of the strategy will be more robust.
 
